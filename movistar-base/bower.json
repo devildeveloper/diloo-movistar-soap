@@ -1,0 +1,27 @@
+{
+  "name": "robistar",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Miguel Aliaga Pantoja <devx.cry@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/devildeveloper/robistar",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.1",
+    "jquery": "^2.2.4",
+    "riot": "^2.4.1",
+    "semantic": "semantic-ui#^2.1.8",
+    "xml2js": "^0.4.16",
+    "socket.io-client": "^1.4.6"
+  }
+}
+

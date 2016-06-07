@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Movistar</title>
+    <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/bower_components/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="/bower_components/semantic/dist/components/menu.min.css">
+    <link rel="stylesheet" href="/bower_components/semantic/dist/components/accordion.min.css">
+    <link rel="stylesheet" href="/bower_components/semantic/dist/components/comment.min.css">
+    <link rel="stylesheet" href="/bower_components/semantic/dist/components/icon.min.css">
+    <link rel="stylesheet" href="/bower_components/css/animate.css">
+    <link rel="stylesheet" href="/bower_components/css/main.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="ui menu">
+                <div class="header item">
+                    Welcome pepe
+                </div>
+                <a class="item">
+                    Pendientes
+                </a>
+                <div class="right menu">
+                    <a class="item">
+                        Salir
+                    </a>
+                </div>
+            </div>              
+        </header>
+        <div class="ui grid">
+            <div class="four wide column">
+                <request></request>
+            </div>
+            <div class="twelve wide column"></div>    
+        </div>         
+    </main>
+    <!-- semantic --> 
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components//semantic/dist/semantic.min.js"></script>
+    <script src="/bower_components/semantic/dist/components/accordion.min.js"></script>
+    <!-- socketio -->
+    <script src="/bower_components/socket.io-client/socket.io.js"></script>
+    <!-- Riot + compiler -->
+    <script src="/bower_components/riot/riot+compiler.min.js"></script>
+    <script src="/assets/components/request.tag" type="riot/tag"></script>
+    <script src="/assets/components/popup.tag" type="riot/tag"></script>
+    <!-- xml parsers -->
+    <script src="/assets/js/x2js.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <popup></popup>
+</body>
+</html>
